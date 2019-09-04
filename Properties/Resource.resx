@@ -1,0 +1,195 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="sAGAIN" xml:space="preserve">
+    <value>Jeszcze raz [T/N]</value>
+  </data>
+  <data name="sALLOW_DUPLICATES" xml:space="preserve">
+    <value>Pozwolić na duplikaty znaków [T/N]?</value>
+  </data>
+  <data name="sCREATING_DICTIONARY" xml:space="preserve">
+    <value>Tworzę słownik</value>
+  </data>
+  <data name="sEMPTY" xml:space="preserve">
+    <value>brak</value>
+  </data>
+  <data name="sERROR_MORE_LETTERS" xml:space="preserve">
+    <value>Za mało znaków {0}. Minimum to {1}.</value>
+  </data>
+  <data name="sERR_DIC_LOAD" xml:space="preserve">
+    <value>Bląd ładowania słownika. Wyjątek {0}.</value>
+  </data>
+  <data name="sERR_MAX_NUMBER_TO_SMALL" xml:space="preserve">
+    <value>Maksymalna ilość znaków nie może być mniejsza niż minimalna.</value>
+  </data>
+  <data name="sERR_NEED_NUMBER" xml:space="preserve">
+    <value>To musi być liczba.</value>
+  </data>
+  <data name="sERR_NO_DICTIONARY_FILE_FOUND" xml:space="preserve">
+    <value>Nie znaleziono pliku słownika {0}.</value>
+  </data>
+  <data name="sERR_NO_NUMBERS_ALLOWED" xml:space="preserve">
+    <value>Wpisz ciąg znaków bez cyfr. {0} zawiera cyfry.</value>
+  </data>
+  <data name="sERR_TO_BIG_NUMBER" xml:space="preserve">
+    <value>Nie może być większa niż liczba liter</value>
+  </data>
+  <data name="sLETTER1" xml:space="preserve">
+    <value>litera</value>
+  </data>
+  <data name="sLETTER2" xml:space="preserve">
+    <value>litery</value>
+  </data>
+  <data name="sLETTER3" xml:space="preserve">
+    <value>liter</value>
+  </data>
+  <data name="sMAX_LENGHT" xml:space="preserve">
+    <value>a [do]</value>
+  </data>
+  <data name="sMIN_LENGHT" xml:space="preserve">
+    <value>Ilość znaków między [od]</value>
+  </data>
+  <data name="sNO" xml:space="preserve">
+    <value>NIE</value>
+  </data>
+  <data name="sPRESSKEY" xml:space="preserve">
+    <value>Dowolny klawisz by zacząć od nowa.</value>
+  </data>
+  <data name="sSEARCH_PATTERN" xml:space="preserve">
+    <value>Podaj wzór wyszukiwania</value>
+  </data>
+  <data name="sSEARCH_TIP" xml:space="preserve">
+    <value>Podpowiedź: wpisz symbol * jako nieznana litera (np. Kw**t)</value>
+  </data>
+  <data name="sUSE_SEARCH_PATTERN" xml:space="preserve">
+    <value>Chcesz podać wzór wyszukiwania?</value>
+  </data>
+  <data name="sWHAT_LETTERS" xml:space="preserve">
+    <value>Z jakich liter? </value>
+  </data>
+  <data name="sWORDS_FOUND" xml:space="preserve">
+    <value>Znaleziono {0} słów.</value>
+  </data>
+  <data name="sWORDS_IN_DICTIONARY" xml:space="preserve">
+    <value>słów w słowniku</value>
+  </data>
+  <data name="sYES" xml:space="preserve">
+    <value>TAK</value>
+  </data>
+</root>
