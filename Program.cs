@@ -197,6 +197,12 @@ namespace Slowa
 
             Console.Write($"{wordDic.Count} {Properties.Resource.sWORDS_IN_DICTIONARY}.");
 
+            #region Debug
+#if DEBUG
+            var watch = System.Diagnostics.Stopwatch.StartNew();
+#endif
+            #endregion
+
             for (int i = lettersMin; i <= lettersMax; i++)
             {
                 int row = 0;
@@ -208,10 +214,9 @@ namespace Slowa
                     #region normal search
                     foreach (string item in wordDic)
                     {
-                        //m = Regex.Match(item, pattern, RegexOptions.IgnoreCase);
-                        if (CheckIt(letters.ToLower(), item.ToLower(), useDuplicates))
+                        if (item.Length == i)
                         {
-                            if (item.Length == i)
+                            if (CheckIt(letters.ToLower(), item.ToLower(), useDuplicates))
                             {
                                 counter++;
                                 if (row < 6)
@@ -242,9 +247,9 @@ namespace Slowa
                     foreach (string item in wordDic)
                     {
                         m = Regex.Match(item, pattern, RegexOptions.IgnoreCase);
-                        if (CheckIt(letters.ToLower(), item.ToLower(), useDuplicates) && m.Success)
+                        if (item.Length == i)
                         {
-                            if (item.Length == i)
+                            if (CheckIt(letters.ToLower(), item.ToLower(), useDuplicates) && m.Success)
                             {
                                 counter++;
                                 if (row < 6)
@@ -274,6 +279,16 @@ namespace Slowa
                 #endregion
             }
 
+            #region Debug
+#if DEBUG
+            watch.Stop();
+            Console.ForegroundColor = ConsoleColor.Yellow;
+            Console.WriteLine($"\t\t");
+            Console.WriteLine($"{Environment.NewLine}\t\t{TimeSpan.FromTicks(watch.ElapsedTicks).Minutes} : {TimeSpan.FromTicks(watch.ElapsedTicks).Seconds} . {TimeSpan.FromTicks(watch.ElapsedTicks).Milliseconds}");
+            Console.ResetColor();
+#endif
+            #endregion
+
             Console.WriteLine(string.Format(Environment.NewLine + Properties.Resource.sWORDS_FOUND, counter, Environment.NewLine));
 
             Console.WriteLine($"{Environment.NewLine}{Environment.NewLine} \t {Properties.Resource.sAGAIN}? ");            
@@ -286,7 +301,6 @@ namespace Slowa
             
         }
 
-        #region crude serch
         static bool CheckIt(string string1, string string2, bool allowDuplicateLetters)
         {
             if (allowDuplicateLetters == true)
@@ -299,8 +313,8 @@ namespace Slowa
                 var chars = string1.GroupBy(x => x).ToDictionary(g => g.Key, g => g.Count());
                 return string2.GroupBy(x => x).All(g => chars.ContainsKey(g.Key) && chars[g.Key] >= g.Count());
             }
+
         }
-        #endregion
 
     }
 }

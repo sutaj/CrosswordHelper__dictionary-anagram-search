@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.29215.179
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Slowa", "Slowa.csproj", "{3BBEDE1C-D26F-4A12-9150-7E628330DB99}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Slowa-GUI", "Slowa-GUI\Slowa-GUI.csproj", "{AE0B6DF7-C612-4FA5-B30D-BE842B76EBC8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{3BBEDE1C-D26F-4A12-9150-7E628330DB99}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3BBEDE1C-D26F-4A12-9150-7E628330DB99}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3BBEDE1C-D26F-4A12-9150-7E628330DB99}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE0B6DF7-C612-4FA5-B30D-BE842B76EBC8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE0B6DF7-C612-4FA5-B30D-BE842B76EBC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE0B6DF7-C612-4FA5-B30D-BE842B76EBC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE0B6DF7-C612-4FA5-B30D-BE842B76EBC8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
