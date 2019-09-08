@@ -2,9 +2,9 @@
 
 Mały pomocnik krzyżówkowicza. Wyszukuje słowa, które można utworzyć z posiadanych liter. Dobry do gier typu Words of Wonder.
 
-**_Ważne! Wypakuj plik slowa.zip (spakowany, ze względu na limit wielkości pliku na GitHub)**
+_**Ważne! Wypakuj plik slowa.zip (spakowany, ze względu na limit wielkości pliku na GitHub)**_
 
-**Impoetant! Unzip slowa.zip_**
+_**Impoetant! Unzip slowa.zip**_
 
 
 Small program to check what kind of words you can create (read from dictionary file - slowa.text) from input letters.
