@@ -1,13 +1,11 @@
 # **PomocnikKrzyzowkowicza - Crossword helper**
 
-Mały pomocnik krzyżówkowicza. Wyszukuje słowa, które można utworzyć z posiadanych liter. Dobry do gier typu Words of Wonder.
-
-_**Ważne! Wypakuj plik slowa.zip (spakowany, ze względu na limit wielkości pliku na GitHub)**_
-
-_**Impoetant! Unzip slowa.zip**_
+_**Important! Unzip slowa.zip** (or provide dictionary file)_
 
 
-Small program to check what kind of words you can create (read from dictionary file - slowa.text) from input letters.
+Small program to check what kind of words you can create (read from dictionary file - slowa.text) from input letters. Like more advance anagram finder. 
+
+Started as quick help to games like **Words of Wonder** and Scrabble-like.
 
 You can specify how many characters this words need to be.
 
@@ -17,7 +15,7 @@ There are two versions - console and GUI. Both are fast (console version is fast
 GUI version uses multithreading so your user interface is still responsive.
 
 
-Search for 3-7 chars long words take about 2 seconds from polish dictionary.
+Search for 3-7 chars long words take about 1 second from polish dictionary.
 
 
 
