@@ -28,4 +28,4 @@ GUI version is harder - all string are in code for now. Wait for update, they wi
 
 Program (both versions - console and winforms) have option to search with pattern. Just replace unknown letter with asterisk __*__ and program will take care of rest.
 
-_one again, thanks to SJP.pl for providing dictionary._
+_once again, thanks to SJP.pl for providing dictionary._
