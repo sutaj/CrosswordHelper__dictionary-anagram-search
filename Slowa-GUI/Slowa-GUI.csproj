@@ -32,6 +32,9 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>crossword_ico_7kd_icon.ico</ApplicationIcon>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -46,6 +49,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Code.cs" />
     <Compile Include="frmMain.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -84,6 +88,9 @@
     <None Include="Resources\iconfinder_logo-github_298818.png" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\iconfinder_ic_pause_48px_352581.png" />
+    <None Include="Resources\iconfinder_icon-ios7-play_211801.png" />
+    <Content Include="crossword_ico_7kd_icon.ico" />
     <Content Include="slowa.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>

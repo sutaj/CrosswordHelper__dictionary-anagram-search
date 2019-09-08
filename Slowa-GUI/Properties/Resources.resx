@@ -118,7 +118,142 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="iconfinder_logo-github_298818" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="iGitHub" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\iconfinder_logo-github_298818.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sBTN_SEARCH" xml:space="preserve">
+    <value>Szukaj</value>
+    <comment>button "Search"</comment>
+  </data>
+  <data name="sBTN_STOP" xml:space="preserve">
+    <value>Stop</value>
+    <comment>button "Stop"</comment>
+  </data>
+  <data name="sERROR" xml:space="preserve">
+    <value>Błąd</value>
+    <comment>"Error"</comment>
+  </data>
+  <data name="sERROR_NO_DICTIONARY" xml:space="preserve">
+    <value>Plik słownika {0} nie istnieje.{1}Program bez tego nie zadziała.</value>
+    <comment>dictionary file not exists</comment>
+  </data>
+  <data name="sERROR_NO_DIC_TITLE" xml:space="preserve">
+    <value>Brak pliku słownika!</value>
+    <comment>dictionary file was not found</comment>
+  </data>
+  <data name="sERROR_SMALL_LETTER_COUNT" xml:space="preserve">
+    <value>Za mało liter. Wypełnij poprawnie wymagane pola.</value>
+    <comment>to few letters</comment>
+  </data>
+  <data name="sEXECUTION_TIME" xml:space="preserve">
+    <value>Wyszukiwanie zajęło {0}min {1}sec {2}ms.</value>
+    <comment>how long search took</comment>
+  </data>
+  <data name="sGH_LINK" xml:space="preserve">
+    <value>https://github.com/sutaj/</value>
+  </data>
+  <data name="sGUI_ALLOW_DUPLICATES" xml:space="preserve">
+    <value>Zezwól na duplikaty liter</value>
+  </data>
+  <data name="sGUI_LETTERS" xml:space="preserve">
+    <value>Zestaw znaków</value>
+  </data>
+  <data name="sGUI_MAX_LETTERS" xml:space="preserve">
+    <value>Maksymalna ilość liter</value>
+  </data>
+  <data name="sGUI_MIN_LETTERS" xml:space="preserve">
+    <value>Minimalna ilość liter</value>
+  </data>
+  <data name="sGUI_MNU_EXPORT" xml:space="preserve">
+    <value>Eksportuj</value>
+  </data>
+  <data name="sGUI_MNU_EXPORT_TIP" xml:space="preserve">
+    <value>Zapisuje wyniki jako{0}dokument html - jak widoczny w oknie{0}lub{0}dokument tekstowy - formatowany tabulacją.</value>
+  </data>
+  <data name="sGUI_OPEN_GH_TIP" xml:space="preserve">
+    <value>Otwórz adres GitHub</value>
+  </data>
+  <data name="sGUI_PATTERN" xml:space="preserve">
+    <value>Wzorzec</value>
+  </data>
+  <data name="sGUI_PATTERN_INFO" xml:space="preserve">
+    <value>* jako nieznana litera{0}np. kw**t</value>
+  </data>
+  <data name="sLETTER_WARNING" xml:space="preserve">
+    <value>Ilość liter jest mniejsza niż maksymalna długość wyrazu.{0}Wciśnij Anuluj by poprawić parametry, albo OK by kontynuować wyszukiwanie.</value>
+  </data>
+  <data name="sLETTER_WARNING_TITLE" xml:space="preserve">
+    <value>Mało liter</value>
+  </data>
+  <data name="sLETT_VARIANT_DEF" xml:space="preserve">
+    <value>liter</value>
+  </data>
+  <data name="sLETT_VARIANT_FOUR" xml:space="preserve">
+    <value>litery</value>
+  </data>
+  <data name="sLETT_VARIANT_ONE" xml:space="preserve">
+    <value>litera</value>
+  </data>
+  <data name="sNONE" xml:space="preserve">
+    <value>=brak=</value>
+    <comment>no results</comment>
+  </data>
+  <data name="sOPN_DIC_TITLE" xml:space="preserve">
+    <value>Znajdź plik dziennika</value>
+  </data>
+  <data name="sPROGRAM_READY_OUT" xml:space="preserve">
+    <value>{0} gotowy.</value>
+  </data>
+  <data name="sPROGRAM_TITLE" xml:space="preserve">
+    <value>Pomocnik Krzyżówkowicza</value>
+    <comment>program name</comment>
+  </data>
+  <data name="sSAVE_COUNTER" xml:space="preserve">
+    <value>Znaleziono {0} dopasowań.</value>
+  </data>
+  <data name="sSAVE_EXT_HTML" xml:space="preserve">
+    <value>Plik w formacie html</value>
+  </data>
+  <data name="sSAVE_EXT_TXT" xml:space="preserve">
+    <value>Plik tekstowy formatowany tabulacją</value>
+  </data>
+  <data name="sSAVE_GEN_BY" xml:space="preserve">
+    <value>Wygenerowane przez</value>
+  </data>
+  <data name="sSAVE_GEN_BY_PROGRAM" xml:space="preserve">
+    <value>Wygenerowane przez program</value>
+  </data>
+  <data name="sSAVE_HTML_COUNTER" xml:space="preserve">
+    <value>Znaleziono &lt;b&gt;{0}&lt;/b&gt; dopasowań.</value>
+  </data>
+  <data name="sSAVE_HTML_SEARCH_INFO" xml:space="preserve">
+    <value>Wyszukiwane znaki: &lt;b&gt;{0}&lt;/b&gt; długość słów od &lt;b&gt;{1}&lt;/b&gt; do &lt;b&gt;{2}&lt;/b&gt;</value>
+  </data>
+  <data name="sSAVE_OPTION_DUPLIACATES" xml:space="preserve">
+    <value>Podczas wyszukiwania zezwolono na duplikaty liter.</value>
+  </data>
+  <data name="sSAVE_PATT" xml:space="preserve">
+    <value>[wzorzec wyszukiwania nie został podany]</value>
+  </data>
+  <data name="sSAVE_SAVED_AS" xml:space="preserve">
+    <value>Zapisano jako {0}.</value>
+  </data>
+  <data name="sSAVE_SEARCH_INFO" xml:space="preserve">
+    <value>Wyszukiwane znaki: {0}, długość słów od {1} do {2}</value>
+  </data>
+  <data name="sSAVE_USED_SEARCH_PATTERN" xml:space="preserve">
+    <value>Wzorzec wyszukiwania</value>
+  </data>
+  <data name="sWORD_COUNTER" xml:space="preserve">
+    <value>Znaleziono {0} {1}.</value>
+  </data>
+  <data name="sWORD_VARIANT_DEF" xml:space="preserve">
+    <value>słów</value>
+  </data>
+  <data name="sWORD_VARIANT_FOUR" xml:space="preserve">
+    <value>słowa</value>
+  </data>
+  <data name="sWORD_VARIANT_ONE" xml:space="preserve">
+    <value>słowo</value>
   </data>
 </root>

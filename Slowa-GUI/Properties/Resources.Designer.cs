@@ -63,10 +63,388 @@ namespace Slowa_GUI.Properties {
         /// <summary>
         ///   Wyszukuje zlokalizowany zasób typu System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap iconfinder_logo_github_298818 {
+        internal static System.Drawing.Bitmap iGitHub {
             get {
-                object obj = ResourceManager.GetObject("iconfinder_logo-github_298818", resourceCulture);
+                object obj = ResourceManager.GetObject("iGitHub", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        /// Wyszukuje zlokalizowany ciąg podobny do ciągu Szukaj.
+        /// </summary>
+        internal static string sBTN_SEARCH {
+            get {
+                return ResourceManager.GetString("sBTN_SEARCH", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        /// Wyszukuje zlokalizowany ciąg podobny do ciągu Stop.
+        /// </summary>
+        internal static string sBTN_STOP {
+            get {
+                return ResourceManager.GetString("sBTN_STOP", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        /// Wyszukuje zlokalizowany ciąg podobny do ciągu Błąd.
+        /// </summary>
+        internal static string sERROR {
+            get {
+                return ResourceManager.GetString("sERROR", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        /// Wyszukuje zlokalizowany ciąg podobny do ciągu Brak pliku słownika!.
+        /// </summary>
+        internal static string sERROR_NO_DIC_TITLE {
+            get {
+                return ResourceManager.GetString("sERROR_NO_DIC_TITLE", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        /// Wyszukuje zlokalizowany ciąg podobny do ciągu Plik słownika {0} nie istnieje.{1}Program bez tego nie zadziała..
+        /// </summary>
+        internal static string sERROR_NO_DICTIONARY {
+            get {
+                return ResourceManager.GetString("sERROR_NO_DICTIONARY", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        /// Wyszukuje zlokalizowany ciąg podobny do ciągu Za mało liter. Wypełnij poprawnie wymagane pola..
+        /// </summary>
+        internal static string sERROR_SMALL_LETTER_COUNT {
+            get {
+                return ResourceManager.GetString("sERROR_SMALL_LETTER_COUNT", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        /// Wyszukuje zlokalizowany ciąg podobny do ciągu Wyszukiwanie zajęło {0}min {1}sec {2}ms..
+        /// </summary>
+        internal static string sEXECUTION_TIME {
+            get {
+                return ResourceManager.GetString("sEXECUTION_TIME", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        /// Wyszukuje zlokalizowany ciąg podobny do ciągu https://github.com/sutaj/.
+        /// </summary>
+        internal static string sGH_LINK {
+            get {
+                return ResourceManager.GetString("sGH_LINK", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        /// Wyszukuje zlokalizowany ciąg podobny do ciągu Zezwól na duplikaty liter.
+        /// </summary>
+        internal static string sGUI_ALLOW_DUPLICATES {
+            get {
+                return ResourceManager.GetString("sGUI_ALLOW_DUPLICATES", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        /// Wyszukuje zlokalizowany ciąg podobny do ciągu Zestaw znaków.
+        /// </summary>
+        internal static string sGUI_LETTERS {
+            get {
+                return ResourceManager.GetString("sGUI_LETTERS", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        /// Wyszukuje zlokalizowany ciąg podobny do ciągu Maksymalna ilość liter.
+        /// </summary>
+        internal static string sGUI_MAX_LETTERS {
+            get {
+                return ResourceManager.GetString("sGUI_MAX_LETTERS", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        /// Wyszukuje zlokalizowany ciąg podobny do ciągu Minimalna ilość liter.
+        /// </summary>
+        internal static string sGUI_MIN_LETTERS {
+            get {
+                return ResourceManager.GetString("sGUI_MIN_LETTERS", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        /// Wyszukuje zlokalizowany ciąg podobny do ciągu Eksportuj.
+        /// </summary>
+        internal static string sGUI_MNU_EXPORT {
+            get {
+                return ResourceManager.GetString("sGUI_MNU_EXPORT", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        /// Wyszukuje zlokalizowany ciąg podobny do ciągu Zapisuje wyniki jako{0}dokument html - jak widoczny w oknie{0}lub{0}dokument tekstowy - formatowany tabulacją..
+        /// </summary>
+        internal static string sGUI_MNU_EXPORT_TIP {
+            get {
+                return ResourceManager.GetString("sGUI_MNU_EXPORT_TIP", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        /// Wyszukuje zlokalizowany ciąg podobny do ciągu Otwórz adres GitHub.
+        /// </summary>
+        internal static string sGUI_OPEN_GH_TIP {
+            get {
+                return ResourceManager.GetString("sGUI_OPEN_GH_TIP", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        /// Wyszukuje zlokalizowany ciąg podobny do ciągu Wzorzec.
+        /// </summary>
+        internal static string sGUI_PATTERN {
+            get {
+                return ResourceManager.GetString("sGUI_PATTERN", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        /// Wyszukuje zlokalizowany ciąg podobny do ciągu * jako nieznana litera{0}np. kw**t.
+        /// </summary>
+        internal static string sGUI_PATTERN_INFO {
+            get {
+                return ResourceManager.GetString("sGUI_PATTERN_INFO", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        /// Wyszukuje zlokalizowany ciąg podobny do ciągu liter.
+        /// </summary>
+        internal static string sLETT_VARIANT_DEF {
+            get {
+                return ResourceManager.GetString("sLETT_VARIANT_DEF", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        /// Wyszukuje zlokalizowany ciąg podobny do ciągu litery.
+        /// </summary>
+        internal static string sLETT_VARIANT_FOUR {
+            get {
+                return ResourceManager.GetString("sLETT_VARIANT_FOUR", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        /// Wyszukuje zlokalizowany ciąg podobny do ciągu litera.
+        /// </summary>
+        internal static string sLETT_VARIANT_ONE {
+            get {
+                return ResourceManager.GetString("sLETT_VARIANT_ONE", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        /// Wyszukuje zlokalizowany ciąg podobny do ciągu Ilość liter jest mniejsza niż maksymalna długość wyrazu.{0}Wciśnij Anuluj by poprawić parametry, albo OK by kontynuować wyszukiwanie..
+        /// </summary>
+        internal static string sLETTER_WARNING {
+            get {
+                return ResourceManager.GetString("sLETTER_WARNING", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        /// Wyszukuje zlokalizowany ciąg podobny do ciągu Mało liter.
+        /// </summary>
+        internal static string sLETTER_WARNING_TITLE {
+            get {
+                return ResourceManager.GetString("sLETTER_WARNING_TITLE", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        /// Wyszukuje zlokalizowany ciąg podobny do ciągu =brak=.
+        /// </summary>
+        internal static string sNONE {
+            get {
+                return ResourceManager.GetString("sNONE", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        /// Wyszukuje zlokalizowany ciąg podobny do ciągu Znajdź plik dziennika.
+        /// </summary>
+        internal static string sOPN_DIC_TITLE {
+            get {
+                return ResourceManager.GetString("sOPN_DIC_TITLE", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        /// Wyszukuje zlokalizowany ciąg podobny do ciągu {0} gotowy..
+        /// </summary>
+        internal static string sPROGRAM_READY_OUT {
+            get {
+                return ResourceManager.GetString("sPROGRAM_READY_OUT", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        /// Wyszukuje zlokalizowany ciąg podobny do ciągu Pomocnik Krzyżówkowicza.
+        /// </summary>
+        internal static string sPROGRAM_TITLE {
+            get {
+                return ResourceManager.GetString("sPROGRAM_TITLE", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        /// Wyszukuje zlokalizowany ciąg podobny do ciągu Znaleziono {0} dopasowań..
+        /// </summary>
+        internal static string sSAVE_COUNTER {
+            get {
+                return ResourceManager.GetString("sSAVE_COUNTER", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        /// Wyszukuje zlokalizowany ciąg podobny do ciągu Plik w formacie html.
+        /// </summary>
+        internal static string sSAVE_EXT_HTML {
+            get {
+                return ResourceManager.GetString("sSAVE_EXT_HTML", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        /// Wyszukuje zlokalizowany ciąg podobny do ciągu Plik tekstowy formatowany tabulacją.
+        /// </summary>
+        internal static string sSAVE_EXT_TXT {
+            get {
+                return ResourceManager.GetString("sSAVE_EXT_TXT", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        /// Wyszukuje zlokalizowany ciąg podobny do ciągu Wygenerowane przez.
+        /// </summary>
+        internal static string sSAVE_GEN_BY {
+            get {
+                return ResourceManager.GetString("sSAVE_GEN_BY", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        /// Wyszukuje zlokalizowany ciąg podobny do ciągu Wygenerowane przez program.
+        /// </summary>
+        internal static string sSAVE_GEN_BY_PROGRAM {
+            get {
+                return ResourceManager.GetString("sSAVE_GEN_BY_PROGRAM", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        /// Wyszukuje zlokalizowany ciąg podobny do ciągu Znaleziono &lt;b&gt;{0}&lt;/b&gt; dopasowań..
+        /// </summary>
+        internal static string sSAVE_HTML_COUNTER {
+            get {
+                return ResourceManager.GetString("sSAVE_HTML_COUNTER", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        /// Wyszukuje zlokalizowany ciąg podobny do ciągu Wyszukiwane znaki: &lt;b&gt;{0}&lt;/b&gt; długość słów od &lt;b&gt;{1}&lt;/b&gt; do &lt;b&gt;{2}&lt;/b&gt;.
+        /// </summary>
+        internal static string sSAVE_HTML_SEARCH_INFO {
+            get {
+                return ResourceManager.GetString("sSAVE_HTML_SEARCH_INFO", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        /// Wyszukuje zlokalizowany ciąg podobny do ciągu Podczas wyszukiwania zezwolono na duplikaty liter..
+        /// </summary>
+        internal static string sSAVE_OPTION_DUPLIACATES {
+            get {
+                return ResourceManager.GetString("sSAVE_OPTION_DUPLIACATES", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        /// Wyszukuje zlokalizowany ciąg podobny do ciągu [wzorzec wyszukiwania nie został podany].
+        /// </summary>
+        internal static string sSAVE_PATT {
+            get {
+                return ResourceManager.GetString("sSAVE_PATT", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        /// Wyszukuje zlokalizowany ciąg podobny do ciągu Zapisano jako {0}..
+        /// </summary>
+        internal static string sSAVE_SAVED_AS {
+            get {
+                return ResourceManager.GetString("sSAVE_SAVED_AS", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        /// Wyszukuje zlokalizowany ciąg podobny do ciągu Wyszukiwane znaki: {0}, długość słów od {1} do {2}.
+        /// </summary>
+        internal static string sSAVE_SEARCH_INFO {
+            get {
+                return ResourceManager.GetString("sSAVE_SEARCH_INFO", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        /// Wyszukuje zlokalizowany ciąg podobny do ciągu Wzorzec wyszukiwania.
+        /// </summary>
+        internal static string sSAVE_USED_SEARCH_PATTERN {
+            get {
+                return ResourceManager.GetString("sSAVE_USED_SEARCH_PATTERN", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        /// Wyszukuje zlokalizowany ciąg podobny do ciągu Znaleziono {0} {1}..
+        /// </summary>
+        internal static string sWORD_COUNTER {
+            get {
+                return ResourceManager.GetString("sWORD_COUNTER", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        /// Wyszukuje zlokalizowany ciąg podobny do ciągu słów.
+        /// </summary>
+        internal static string sWORD_VARIANT_DEF {
+            get {
+                return ResourceManager.GetString("sWORD_VARIANT_DEF", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        /// Wyszukuje zlokalizowany ciąg podobny do ciągu słowa.
+        /// </summary>
+        internal static string sWORD_VARIANT_FOUR {
+            get {
+                return ResourceManager.GetString("sWORD_VARIANT_FOUR", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        /// Wyszukuje zlokalizowany ciąg podobny do ciągu słowo.
+        /// </summary>
+        internal static string sWORD_VARIANT_ONE {
+            get {
+                return ResourceManager.GetString("sWORD_VARIANT_ONE", resourceCulture);
             }
         }
     }

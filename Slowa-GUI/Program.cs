@@ -12,15 +12,14 @@
  *     For code updates visit repository on https://github.com/sutaj
  */
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace Slowa_GUI
 {
     static class Program
     {
+        internal static string Version = Application.ProductVersion;
+
         /// <summary>
         /// Główny punkt wejścia dla aplikacji.
         /// </summary>
